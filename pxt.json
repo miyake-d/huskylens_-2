@@ -1,5 +1,5 @@
 {
-    "name": "Huskylens_拡張機能改良２ #2",
+    "name": "AIカメラ",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -7,12 +7,11 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
-        "main.py",
-        "custom.ts",
-        "custom1.ts"
+        "ai_camera.ts",
+        "i2c.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
